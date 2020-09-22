@@ -1,11 +1,13 @@
 import React from 'react';
-import Intro from '../features/intro/Intro';
-import Project from '../features/project/Project'
+import Intro from './components/Intro';
+import Project from './components/Project'
 
 const App = () => {
   return <>
+    <Header/>
     <Intro/>
     <Project/>
+    <Footer/>
   </>
 }
 
