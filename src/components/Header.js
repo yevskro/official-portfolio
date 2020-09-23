@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Header = () => <HeaderContainer>
-  <PrimaryButton href="http://github.com/yevskro">GitHub</PrimaryButton>
+  <PrimaryButton href="https://github.com/yevskro">Github</PrimaryButton>
   <SecondaryButton href="mailto:yevskro@gmail.com?Subject=Hello Yevgeniy">Hire Me</SecondaryButton>
 </HeaderContainer>;
 
@@ -14,7 +14,6 @@ const HeaderContainer = styled.section`
 `;
 
 const HeaderButton = styled.a`
-  text-decoration: none;
   width: 143px;
   height: 53px;
   display: flex;
