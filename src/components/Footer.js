@@ -4,27 +4,47 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => <FooterContainer>
-  <PrimaryButton href="mailto:yevskro@gmail.com?Subject=Hello Yevgeniy">Hire Me</PrimaryButton>
-  <Email>yevskro@gmail.com</Email>
-  <Icons>
-    <IconLink href="https://github.com/yevskro">
-      <FontAwesomeIcon icon={faGithub} color='white' size='lg'/>
-    </IconLink>
-    <IconLink href="https://www.linkedin.com/in/yevgeniyskroznikov/">
-      <FontAwesomeIcon icon={faLinkedin} color='white' size='lg'/>
-    </IconLink> 
-  </Icons>
+  <VerticalLine/>
+  <FooterSection>
+    <PrimaryButton href="mailto:yevskro@gmail.com?Subject=Hello Yevgeniy">Hire Me</PrimaryButton>
+    <Email>yevskro@gmail.com</Email>
+    <Icons>
+      <IconLink href="https://github.com/yevskro">
+        <FontAwesomeIcon icon={faGithub} color='white' size='lg'/>
+      </IconLink>
+      <IconLink href="https://www.linkedin.com/in/yevgeniyskroznikov/">
+        <FontAwesomeIcon icon={faLinkedin} color='white' size='lg'/>
+      </IconLink> 
+    </Icons>
+  </FooterSection>
 </FooterContainer>;
+
+const VerticalLine = styled.section`
+  border-right: 1px solid RGB(63,69,73);
+  height: 400px;
+  width: 1px;
+  margin-left: 23%;
+  display: inline-block;
+`;
 
 const IconLink = styled.a`
   margin-left: 17px;
   margin-right: 17px;
 `;
 
-const FooterContainer = styled.section`
-  display: flex;
+const FooterContainer = styled.footer`
   height: 400px;
+  margin-top: auto;
+  display: flex;
+`;
+
+const FooterSection = styled.section`
+  display: flex;
+  width: 100%;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-11.5%, 0);
 `;
 
 const Button = styled.a`
@@ -39,8 +59,6 @@ const Button = styled.a`
   font-weight: 900;
   cursor: pointer;
   align-self: center;
-  margin-top: 81px;
-  font-family: 'Space Mono', monospace;
 `;
 
 const PrimaryButton = styled(Button)`
@@ -56,7 +74,6 @@ const Icons = styled.section`
 
 const Email = styled.span`
     font-size: 1.2em;
-    font-family: 'Space Mono', monospace;
     font-weight: 900;
     align-self: center;
     margin-top: 37px;
