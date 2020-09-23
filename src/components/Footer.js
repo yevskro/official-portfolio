@@ -3,21 +3,21 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-const Footer = () => <FooterContainer>
+const Footer = () => <Container>
   <VerticalLine/>
-  <FooterSection>
+  <Section>
     <PrimaryButton href="mailto:yevskro@gmail.com?Subject=Hello Yevgeniy">Hire Me</PrimaryButton>
     <Email>yevskro@gmail.com</Email>
     <Icons>
       <IconLink href="https://github.com/yevskro">
-        <FontAwesomeIcon icon={faGithub} color='white' size='lg'/>
+        <FontAwesomeIcon icon={faGithub} color='white' size='2x'/>
       </IconLink>
       <IconLink href="https://www.linkedin.com/in/yevgeniyskroznikov/">
-        <FontAwesomeIcon icon={faLinkedin} color='white' size='lg'/>
+        <FontAwesomeIcon icon={faLinkedin} color='white' size='2x'/>
       </IconLink> 
     </Icons>
-  </FooterSection>
-</FooterContainer>;
+  </Section>
+</Container>;
 
 const VerticalLine = styled.section`
   border-right: 1px solid RGB(63,69,73);
@@ -32,13 +32,13 @@ const IconLink = styled.a`
   margin-right: 17px;
 `;
 
-const FooterContainer = styled.footer`
+const Container = styled.footer`
   height: 400px;
   margin-top: auto;
   display: flex;
 `;
 
-const FooterSection = styled.section`
+const Section = styled.section`
   display: flex;
   width: 100%;
   flex-direction: column;

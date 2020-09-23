@@ -1,19 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Header = () => <HeaderContainer>
+const Header = () => <Container>
     <PrimaryButton href="https://github.com/yevskro">Github</PrimaryButton>
     <SecondaryButton href="mailto:yevskro@gmail.com?Subject=Hello Yevgeniy">Hire Me</SecondaryButton>
-</HeaderContainer>;
+</Container>;
 
-const HeaderContainer = styled.header`
+const Container = styled.header`
   display: flex;
   justify-content: flex-end;
   padding-right: 8%;
   padding-left: 8%;
 `;
 
-const HeaderButton = styled.a`
+const Button = styled.a`
   display: flex;
   width: 143px;
   height: 53px;
@@ -29,11 +29,11 @@ const HeaderButton = styled.a`
   background-color: RGB(39,43,46);
 `;
 
-const PrimaryButton = styled(HeaderButton)`
+const PrimaryButton = styled(Button)`
     color: RGB(234,191,16);
 `;
 
-const SecondaryButton = styled(HeaderButton)`
+const SecondaryButton = styled(Button)`
     color: RGB(255,255,255);
 `;
 
