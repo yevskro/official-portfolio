@@ -1,19 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Window = () => <StyledWindow>
+const Window = (props) => <StyledWindow>
     <Bar><RedCircle/><OrangeCircle/><GreenCircle/></Bar>
-    <Image src={process.env.PUBLIC_URL + '/assets/icons/healthvid.gif'}></Image>
+    <Image src={props.imagePath}></Image>
 </StyledWindow>
 
 const Image = styled.img`
-  height: 520px;
-  width: 850px;
+  height: 550px;
+  width: 750px;
   opacity: 1;
 `;
 
 const StyledWindow = styled.div`
-  width: 850px;
+  width: 750px;
   height: 550px;
   border-color: RGB(214,214,214);
   box-shadow: 0 4px 8px 0 RGBA(0, 0, 0, 0.08), 0 6px 20px 0 RGBA(0, 0, 0, 0.08);

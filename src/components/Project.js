@@ -7,7 +7,7 @@ const Project = (props) => <Container>
     <Logo src={props.iconPath}/>
     <Header>{props.title}</Header>
     <Caption>{props.caption}</Caption>
-    <Window/>
+    <Window imagePath={props.imagePath}/>
   </StyledFigure>
 </Container>
 
