@@ -18,7 +18,7 @@ const Header = () => <StyledHeader>
           <DbSkill>SQL/NoSQL</DbSkill>
         </Skills>
         <FlashMessage>
-          <Message>I've worked with <NeonText>TypeScript</NeonText>, <NeonText>Test Driven Development</NeonText>, <NeonText>CI/CD</NeonText>, <NeonText>Docker</NeonText>, <NeonText>AWS</NeonText>, and the <NeonText>MVC</NeonText> architecture. I am the maintainer of <NeonText>Nautilus</NeonText> an <NeonText>open source</NeonText> product that visualizes and deploys <NeonText>docker-compose</NeonText> files within an <NeonText>Electron</NeonText> application.</Message>
+          <Message>I worked with <NeonText>TypeScript</NeonText>, <NeonText>Test Driven Development</NeonText>, <NeonText>CI/CD</NeonText>, <NeonText>Docker</NeonText>, <NeonText>AWS</NeonText>, and the <NeonText>MVC</NeonText> architecture. I am the maintainer of <NeonText>Nautilus</NeonText> an <NeonText>open source</NeonText> product that visualizes and deploys <NeonText>docker-compose</NeonText> files within an <NeonText>Electron</NeonText> application.</Message>
           <FlashEmpty/>
         </FlashMessage>
       </FlashSkills>
@@ -49,7 +49,7 @@ const FlashMessage = styled(Flash)`
   animation-delay: 1.4s;
 `;
 const FlashSkills = styled(Flash)`
-  animation-delay: 1s;
+  animation-delay: 1.25s;
 `;
 
 const Skills = styled.ol`
@@ -96,7 +96,7 @@ const DbSkill = styled(Skill)`
 `;
 
 const FlashJob = styled(Flash)`
-  animation-delay: 0.6s;
+  animation-delay: 0.75s;
 `;
 const Message = styled.span`
   color: RGB(117,133,143);
@@ -110,7 +110,7 @@ const JobDescription = styled.span`
   font-size: 1.1em;
   opacity: 0;
   animation: 0.6s ease-in 0s 1 ${becomeVisible} forwards;
-  animation-delay: 1s;
+  animation-delay: 1.25s;
 `;
 
 const NeonText = styled.span`
@@ -122,7 +122,7 @@ const Name = styled.span`
   font-size: 4em;
   opacity: 0;
   animation: 0.7s ease-in 0s 1 ${becomeVisible} forwards;
-  animation-delay: 0.6s;
+  animation-delay: 0.75s;
 `;
 const Hi = styled.span`
   color: RGB(224,238,246);
@@ -131,7 +131,7 @@ const Hi = styled.span`
   animation: 0.6s ease-in 0s 1 ${becomeVisible} forwards;
 `;
 const FlashName = styled(Flash)`
-  animation: 0.6s ease-in 0s 1 ${becomeVisible} forwards;
+  animation: 0.7s ease-in 0s 1 ${becomeVisible} forwards;
 `;
 
 // full animation 0.5s, 0.15 delay for next container, and delay 10s for next message
