@@ -4,14 +4,9 @@ import Window from './Window';
 
 const Project = (props) => <Container>
   <StyledFigure>
-    <Logo src={process.env.PUBLIC_URL + '/assets/icons/nautilus.png'}/>
-    <Header>Nautilus</Header>
-    <Caption>
-      An interactive D3 visualizing tool that 
-      dynamically renders essential Docker Compose 
-      properties onto an Electron GUI, built to 
-      simplify the development environment for engineers.
-    </Caption>
+    <Logo src={props.iconPath}/>
+    <Header>{props.title}</Header>
+    <Caption>{props.caption}</Caption>
     <Window/>
   </StyledFigure>
 </Container>
