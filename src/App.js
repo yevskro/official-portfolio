@@ -8,7 +8,6 @@ const App = () => {
   return <>
     <Header/>
     <Intro/>
-    <Project/>
     <Footer/>
   </>
 }
