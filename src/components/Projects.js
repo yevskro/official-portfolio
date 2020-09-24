@@ -2,7 +2,7 @@ import React from 'react';
 import Project from './Project'
 import styled from 'styled-components';
 
-const Projects = (props) => <Container>
+const Projects = () => <Container>
   <Project title='Nautilus' 
     caption='An interactive D3 visualizing tool that dynamically renders essential Docker Compose properties onto an Electron GUI, built to simplify the development environment for engineers.' 
     iconPath='/assets/icons/nautilus.png'
