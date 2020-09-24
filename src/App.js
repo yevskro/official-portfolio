@@ -1,13 +1,13 @@
 import React from 'react';
-import Header from './components/Header';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
-import Intro from './components/Intro';
+import Header from './components/Header';
 import Projects from './components/Projects';
 
 const App = () => {
   return <>
+    <Nav/>
     <Header/>
-    <Intro/>
     <Projects/>
     <Footer/>
   </>

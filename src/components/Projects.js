@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const Projects = (props) => <Container>
   <Project/>
+  <Project/>
 </Container>
 
 const Container = styled.section`
