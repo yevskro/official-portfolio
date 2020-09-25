@@ -1,2 +1,2 @@
 # official-portfolio
-A few simple changes to my older portfolio page. Also using React Hooks now.
+Offical portfolio page built with React and styled-components.
