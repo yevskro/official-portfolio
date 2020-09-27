@@ -8,11 +8,11 @@ const Projects = () => <Container>
     iconPath='/assets/icons/nautilus.png'
     imagePath='/assets/images/nautilus.png'/>
   <Project title='OpenSorceror' 
-    caption='An organizer of public organizational github repos that are available to contributions. Developers can upload their own repos or save repos that they wish to contribute to.' 
+    caption='An organizer of public organizational github repos that are available for contributions. Developers can upload their own repos or save repos that they wish to contribute to.' 
     iconPath='/assets/icons/opensorce.png' 
     imagePath='/assets/images/opensorce.png'/>
   <Project title='Schemu' 
-    caption='Schemu is an interactive tool used by teams of developers to collaboratively design PostgresQL database schemas. A secure URL is used for teammate to interact on the project in real-time.' 
+    caption='Schemu is an interactive tool used by teams of developers to collaboratively design PostgresQL database schemas. A secure URL is used for teammates to interact on the project in real-time.' 
     iconPath='/assets/icons/schemu.jpeg' 
     imagePath='/assets/images/schemu.png'/>
   <Project title='HangmanX' 

@@ -18,7 +18,7 @@ const Header = () => <StyledHeader>
           <DbSkill>SQL/NoSQL</DbSkill>
         </Skills>
         <FlashMessage>
-          <Message>I worked with <NeonText>TypeScript</NeonText>, <NeonText>Test Driven Development</NeonText>, <NeonText>CI/CD</NeonText>, <NeonText>Docker</NeonText>, <NeonText>AWS</NeonText>, and the <NeonText>MVC</NeonText> architecture. I am the maintainer of <NeonText>Nautilus</NeonText> an <NeonText>open source</NeonText> product that visualizes and deploys <NeonText>docker-compose</NeonText> files within an <NeonText>Electron</NeonText> application.</Message>
+          <Message>I have experience in <NeonText>TypeScript</NeonText>, <NeonText>Test Driven Development</NeonText>, <NeonText>CI/CD</NeonText>, <NeonText>Docker</NeonText>, <NeonText>AWS</NeonText>, and the <NeonText>MVC</NeonText> architecture. I am the maintainer of <NeonText>Nautilus</NeonText> an <NeonText>open source</NeonText> product that visualizes and deploys <NeonText>docker-compose</NeonText> files within an <NeonText>Electron</NeonText> application.</Message>
           <FlashEmpty/>
         </FlashMessage>
       </FlashSkills>
@@ -39,14 +39,14 @@ const Flash = styled.section`
   padding-left: 55px;
   border-left: 1px solid RGB(63,69,73);
   opacity: 0;
-  animation: 0.6s ease-in 0s 1 ${becomeVisible} forwards;
+  animation: 0.5s ease-in 0s 1 ${becomeVisible} forwards;
 `;
 
 const FlashEmpty = styled(Flash)`
   animation-delay: 2.2s;
 `;
 const FlashMessage = styled(Flash)`
-  animation-delay: 1.4s;
+  animation-delay: 1.75s;
 `;
 const FlashSkills = styled(Flash)`
   animation-delay: 1.25s;
@@ -72,27 +72,27 @@ const Skill = styled.li`
     color: RGB(224,238,246);
     font-size: 1.2em;
     opacity: 0;
-    animation: 0.6s ease-in 0s 1 ${becomeVisible} forwards;
+    animation: 0.5s ease-in 0s 1 ${becomeVisible} forwards;
 `;
 
 const ReactSkill = styled(Skill)`
-  animation-delay: 1.2s;
+  animation-delay: 1.75s;
 `;
 
 const ReduxSkill = styled(Skill)`
-  animation-delay: 1.4s;
+  animation-delay: 2s;
 `;
 
 const ExpressSkill = styled(Skill)`
-  animation-delay: 1.6s;
+  animation-delay: 2.25s;
 `;
 
 const NodeSkill = styled(Skill)`
-  animation-delay: 1.8s;
+  animation-delay: 2.5s;
 `;
 
 const DbSkill = styled(Skill)`
-  animation-delay: 2s;
+  animation-delay: 2.75s;
 `;
 
 const FlashJob = styled(Flash)`
@@ -102,14 +102,14 @@ const Message = styled.span`
   color: RGB(117,133,143);
   font-size: 1.1em;
   opacity: 0;
-  animation: 0.6s ease-in 0s 1 ${becomeVisible} forwards;
-  animation-delay: 2.2s;
+  animation: 0.5s ease-in 0s 1 ${becomeVisible} forwards;
+  animation-delay: 2.65s;
 `;
 const JobDescription = styled.span`
   color: RGB(117,133,143);
   font-size: 1.1em;
   opacity: 0;
-  animation: 0.6s ease-in 0s 1 ${becomeVisible} forwards;
+  animation: 0.8s ease-in 0s 1 ${becomeVisible} forwards;
   animation-delay: 1.25s;
 `;
 
@@ -121,17 +121,19 @@ const Name = styled.span`
   color: RGB(224,238,246);
   font-size: 4em;
   opacity: 0;
-  animation: 0.7s ease-in 0s 1 ${becomeVisible} forwards;
-  animation-delay: 0.75s;
+  animation: 0.8s ease-in 0s 1 ${becomeVisible} forwards;
+  animation-delay: 1s;
 `;
 const Hi = styled.span`
   color: RGB(224,238,246);
   font-size: 1.5em;
   opacity: 0;
-  animation: 0.6s ease-in 0s 1 ${becomeVisible} forwards;
+  animation: 0.5s ease-in 0s 1 ${becomeVisible} forwards;
+  animation-delay: 0.5s;
 `;
 const FlashName = styled(Flash)`
-  animation: 0.7s ease-in 0s 1 ${becomeVisible} forwards;
+  animation: 0.5s ease-in 0s 1 ${becomeVisible} forwards;
+  animation-delay: 0.5s;
 `;
 
 // full animation 0.5s, 0.15 delay for next container, and delay 10s for next message

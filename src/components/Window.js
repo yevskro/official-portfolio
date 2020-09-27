@@ -6,6 +6,10 @@ const Window = (props) => <StyledWindow>
     <Image src={props.imagePath}></Image>
 </StyledWindow>
 
+/*
+  mobile: 250px, 300px;
+          200px 250px
+*/
 const Image = styled.img`
   height: 550px;
   width: 750px;
@@ -13,8 +17,8 @@ const Image = styled.img`
 `;
 
 const StyledWindow = styled.div`
-  width: 750px;
   height: 550px;
+  width: 750px;
   border-color: RGB(214,214,214);
   box-shadow: 0 4px 8px 0 RGBA(0, 0, 0, 0.08), 0 6px 20px 0 RGBA(0, 0, 0, 0.08);
   background-color: RGBA(0, 0, 255, 0.07);
