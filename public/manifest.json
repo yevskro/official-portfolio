@@ -1,6 +1,7 @@
 {
-  "short_name": "Yevgeniy's Portfolio",
-  "name": "Yevgeniy's Portfolio",
+  "name": "Yevgeniy's Official Portfolio",
+  "short_name": "Official Portfolio",
+  "description": "Yevgeniy's Portfolio",
   "icons": [
     {
       "src": "favicon.ico",

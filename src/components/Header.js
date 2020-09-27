@@ -46,7 +46,7 @@ const FlashEmpty = styled(Flash)`
   animation-delay: 2.2s;
 `;
 const FlashMessage = styled(Flash)`
-  animation-delay: 1.75s;
+  animation-delay: 1.90s;
 `;
 const FlashSkills = styled(Flash)`
   animation-delay: 1.25s;
