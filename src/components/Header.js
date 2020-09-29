@@ -43,10 +43,10 @@ const Flash = styled.section`
 `;
 
 const FlashEmpty = styled(Flash)`
-  animation-delay: 2.2s;
+  animation-delay: 2.78s;
 `;
 const FlashMessage = styled(Flash)`
-  animation-delay: 1.90s;
+  animation-delay: 2.78s;
 `;
 const FlashSkills = styled(Flash)`
   animation-delay: 1.25s;
@@ -103,7 +103,7 @@ const Message = styled.span`
   font-size: 1.1em;
   opacity: 0;
   animation: 0.5s ease-in 0s 1 ${becomeVisible} forwards;
-  animation-delay: 2.65s;
+  animation-delay: 2.78s;
 `;
 const JobDescription = styled.span`
   color: RGB(117,133,143);
